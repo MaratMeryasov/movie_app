@@ -2,6 +2,11 @@ const API_KEY = "35019059-f9d9-4e48-aae4-869525c278c0";
 const API_URL_POPULAR =
   "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_250_BEST_FILMS&page=1";
 
+  const API_URL_SEARCH =
+  "https://kinopoiskapiunofficial.tech/api/v2.1/films/search-by-keyword?keyword=";
+const API_URL_MOVIE_DETAILS = "https://kinopoiskapiunofficial.tech/api/v2.2/films/"
+
+
   getMovies(API_URL_POPULAR);
 
   async function getMovies(url) {
